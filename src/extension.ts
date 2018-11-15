@@ -7,12 +7,12 @@ import * as yaml from 'js-yaml'
 /**
  * Regex used to extract upper levels keys
  */
-const keyRegex: RegExp = /^[a-zA-Z_\\]+/;
+const keyRegex: RegExp = /^[a-zA-Z0-9_\\]+/;
 
 /**
  * Regex used to extract spaced keys
  */
-const keySpaceRegex: RegExp = /^[\s]+[a-zA-Z_]+/;
+const keySpaceRegex: RegExp = /^[\s]+[a-zA-Z0-9_]+/;
 
 /**
  * Regex used to count the number of spaces
